@@ -1,7 +1,17 @@
 body {
   background-color: #96A8C8;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Lucida,Helvetica, san-serif;
   color: #333;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: 500;
+  left: 50%;
+  width: 780px;
+  text-align: center;
+  margin-left: 150px;
+}
+img {
+  border: 0;
 }
 
 .topbox {
@@ -10,11 +20,94 @@ position: relative;
 overflow: hidden;
 }
 .topleft {
+  color: #282B30;
   width: 166px;
   float: left;
   position: relative;
+  text-decoration: none;
   text-align: left;
   padding: 17px;
+}
+.topleft ul{
+  list-style-type: none;
+}
+#leftbg{
+  float: left;
+  left: 0;
+  width: 200px;
+  bottom: 0;
+  top: 0px;
+}
+.topright{
+  width: 560px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  float: right;
+  position: relative;
+  text-align: left;
+  line-height: 150%;
+}
+#rightbg{
+  right:0;
+  float: right;
+  width: 572px;
+  bottom: 0;
+  top: 0px;
+}
+.midtitle{
+  margin: 10px;
+  font-size: 21px;
+  font-weight: 800;
+}
+#mid{
+  position: relative;
+  width: 780px;
+  margin: 5px auto;
+  padding: 10px 0;
+}
+ul.nav{
+  padding: 0;
+  list-style-type: none;
+}
+ul.nav li{
+  display:inline;
+}
+ul.nav li a{
+  background-color: #6E7B91;
+  color:white;
+  border: 1.5px solid black;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1.5px 12px;
+  margin: 0 4px;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 gray;
+}
+#slogan{
+  padding: 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+  vertical-align: top;
+}
+.bg{
+  position: absolute;
+  z-index: -1;
+}
+.box{
+  background: white;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: black;
+  border-radius: 12px;
+}
+a {
+  text-decoration: none;
+  font-weight: 800;
 }
 .hero-unit {
   margin: 50px auto 0 auto;
